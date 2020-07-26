@@ -1,6 +1,8 @@
---- a/src/Application.vala	2020-03-22 10:03:06.000000000 +0000
-+++ b/src/Application.vala	2020-07-22 14:59:51.786810766 +0100
-@@ -41,6 +41,8 @@
+diff --git a/src/Application.vala b/src/Application.vala
+index 2def2ae..e4aa77c 100644
+--- a/src/Application.vala
++++ b/src/Application.vala
+@@ -41,6 +41,8 @@ public class Litteris.Application : Gtk.Application {
      protected override void activate () {
          database.sync_databases ();
          database.reload_app.connect (reload_application);
@@ -9,3 +11,16 @@
  
          if (get_windows ().length () > 0) {
              main_window.present ();
+diff --git a/src/Widgets/PenpalView.vala b/src/Widgets/PenpalView.vala
+index 51aa70e..2e3b5d5 100644
+--- a/src/Widgets/PenpalView.vala
++++ b/src/Widgets/PenpalView.vala
+@@ -90,7 +90,7 @@ public class Litteris.PenpalView : Gtk.Grid {
+         icon_sent_label.halign = Gtk.Align.END;
+         icon_sent_label.get_style_context ().add_class (Granite.STYLE_CLASS_WELCOME);
+ 
+-        var icon_received = new Gtk.Image.from_icon_name ("mail-read", Gtk.IconSize.LARGE_TOOLBAR);
++        var icon_received = new Gtk.Image.from_icon_name ("emblem-mail", Gtk.IconSize.LARGE_TOOLBAR);
+             icon_received.halign = Gtk.Align.START;
+ 
+         icon_received_label = new Gtk.Label ("");
