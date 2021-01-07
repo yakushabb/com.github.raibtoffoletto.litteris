@@ -30,8 +30,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/raibtoffoletto/litteris.git
-        tag: 0.1.6
-        commit: 480a34546b2f4c8fba7c5ba44a7b9c0498415062
+        tag: 0.1.7
+        commit: d1635d2e6af939e9134279ebb4d87de799793bef
       - type: patch
         path: appdata.patch
       - type: patch
