@@ -1,13 +1,26 @@
 diff --git a/data/com.github.raibtoffoletto.litteris.appdata.xml.in b/data/com.github.raibtoffoletto.litteris.appdata.xml.in
-index 15dcb67..bc4969a 100644
+index 34dc2bb..e031999 100644
 --- a/data/com.github.raibtoffoletto.litteris.appdata.xml.in
 +++ b/data/com.github.raibtoffoletto.litteris.appdata.xml.in
-@@ -28,6 +28,8 @@
+@@ -19,7 +19,7 @@
+
+   <screenshots>
+     <screenshot type="default">
+-      <image>https://github.com/raibtoffoletto/litteris/raw/master/data/com.github.raibtoffoletto.litteris.screenshot.png</image>
++      <image>https://raw.githubusercontent.com/raibtoffoletto/litteris/main/data/com.github.raibtoffoletto.litteris.screenshot.png</image>
+     </screenshot>
+   </screenshots>
+
+@@ -28,9 +28,12 @@
    <url type="bugtracker">https://github.com/raibtoffoletto/litteris/issues</url>
    <url type="help">https://raibtoffoletto.github.io/litteris</url>
- 
+
 +  <content_rating type="oars-1.1" />
 +
    <releases>
-     <release version="0.1.6" date="2020-07-22">
+     <release version="0.1.7" date="2021-01-06">
        <description>
++      <p>Changes:</p>
+         <ul>
+           <li>Translations updated</li>
+           <li>Thanks to: Heimen Stoffels and André Barata</li>
