@@ -1,9 +1,9 @@
 app-id: com.github.raibtoffoletto.litteris
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 base: io.elementary.BaseApp
-base-version: juno-22.08
+base-version: juno-23.08
 command: com.github.raibtoffoletto.litteris
 finish-args:
   # X11
