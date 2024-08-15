@@ -27,10 +27,9 @@ modules:
   - name: litteris
     buildsystem: meson
     sources:
-      - type: git
-        url: https://github.com/raibtoffoletto/litteris.git
-        tag: 0.1.7
-        commit: d1635d2e6af939e9134279ebb4d87de799793bef
+      - type: archive
+        url: https://github.com/raibtoffoletto/litteris/archive/refs/tags/0.1.9.tar.gz
+        sha256: 5a08cf289deacdce51c300fb0f0666fbc4960d590bed3a90ed2dfbd964ac0564
       - type: patch
         path: appdata.patch
       - type: patch
