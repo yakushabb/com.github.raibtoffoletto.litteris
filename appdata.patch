@@ -1,26 +1,37 @@
+From 7800ffd0adc2a8288b35988f95d0d82cf10390bc Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Thu, 15 Aug 2024 13:49:43 +0300
+Subject: [PATCH] Fix appdata papercuts
+
+---
+ data/com.github.raibtoffoletto.litteris.appdata.xml.in | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
 diff --git a/data/com.github.raibtoffoletto.litteris.appdata.xml.in b/data/com.github.raibtoffoletto.litteris.appdata.xml.in
-index 34dc2bb..e031999 100644
+index f3859d6..9f5e64c 100644
 --- a/data/com.github.raibtoffoletto.litteris.appdata.xml.in
 +++ b/data/com.github.raibtoffoletto.litteris.appdata.xml.in
-@@ -19,7 +19,7 @@
-
-   <screenshots>
-     <screenshot type="default">
--      <image>https://github.com/raibtoffoletto/litteris/raw/master/data/com.github.raibtoffoletto.litteris.screenshot.png</image>
-+      <image>https://raw.githubusercontent.com/raibtoffoletto/litteris/main/data/com.github.raibtoffoletto.litteris.screenshot.png</image>
-     </screenshot>
-   </screenshots>
-
-@@ -28,9 +28,12 @@
+@@ -42,7 +42,11 @@
+   <developer_name>Raí B. Toffoletto</developer_name>
+   <url type="homepage">https://toffoletto.me</url>
    <url type="bugtracker">https://github.com/raibtoffoletto/litteris/issues</url>
++  <url type="vcs-browser">https://github.com/raibtoffoletto/litteris</url>
    <url type="help">https://raibtoffoletto.github.io/litteris</url>
-
-+  <content_rating type="oars-1.1" />
++  <launchable type="desktop-id">com.github.raibtoffoletto.litteris.desktop</launchable>
 +
++  <content_rating type="oars-1.1" />
+ 
    <releases>
-     <release version="0.1.7" date="2021-01-06">
-       <description>
-+      <p>Changes:</p>
-         <ul>
-           <li>Translations updated</li>
-           <li>Thanks to: Heimen Stoffels and André Barata</li>
+     <release version="0.1.9" date="2021-09-16">
+@@ -93,7 +97,7 @@
+           <li>Portuguese translation added</li>
+           <li>
+             Dutch translation by
+-            <b>Heimen Stoffels</b>
++            <em>Heimen Stoffels</em>
+           </li>
+         </ul>
+       </description>
+--
+libgit2 1.7.2
+
